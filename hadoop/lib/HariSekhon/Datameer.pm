@@ -19,7 +19,7 @@ BEGIN {
 }
 use HariSekhonUtils;
 use Carp;
-use JSON;
+use JSON::XS;
 
 use Exporter;
 our @ISA = qw(Exporter);
